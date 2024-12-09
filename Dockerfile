@@ -3,11 +3,11 @@
 
 FROM ghcr.io/linuxserver/baseimage-alpine:edge
 
-LABEL maintainer="ep1cman"
+LABEL maintainer="Calimerorulez"
 
 WORKDIR /app
 
-COPY dist/unifi_protect_backup-0.11.0.tar.gz sdist.tar.gz
+COPY dist/unifi_protect_backup-0.12.0.tar.gz sdist.tar.gz
 
 # https://github.com/rust-lang/cargo/issues/2808
 ENV CARGO_NET_GIT_FETCH_WITH_CLI=true
