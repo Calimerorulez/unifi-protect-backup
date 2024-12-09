@@ -8,4 +8,4 @@ echo $VERBOSITY
 [[ -n "$VERBOSITY" ]] && export VERBOSITY_ARG=-$VERBOSITY || export VERBOSITY_ARG=""
 
 exec \
-    s6-setuidgid abc unifi-protect-backup ${VERBOSITY_ARG}
+    s6-setuidgid abc unifi-protect-rclone ${VERBOSITY_ARG}
