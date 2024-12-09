@@ -1,4 +1,4 @@
-sources = unifi_protect_backup
+sources = unifi_protect_rclone
 container_name ?= ghcr.io/Calimerorulez/unifi-protect-backup
 container_arches ?= linux/amd64,linux/arm64
 
