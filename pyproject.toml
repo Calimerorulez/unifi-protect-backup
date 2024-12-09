@@ -1,8 +1,8 @@
 [tool]
 [tool.poetry]
-name = "unifi_protect_backup"
+name = "unifi_protect_rclone"
 version = "0.12.0"
-homepage = "https://github.com/Calimerorulez/unifi-protect-backup"
+homepage = "https://github.com/Calimerorulez/unifi-protect-rclone"
 description = "Python tool to backup unifi event clips in realtime."
 authors = ["Pat <calimerorulez@gmail.com>"]
 readme = "README.md"
@@ -16,7 +16,7 @@ classifiers=[
     'Programming Language :: Python :: 3.10',
 ]
 packages = [
-    { include = "unifi_protect_backup" },
+    { include = "unifi_protect_rclone" },
     { include = "tests", format = "sdist" },
 ]
 
@@ -54,7 +54,7 @@ tox  = "^3.20.1"
 tox-asdf = "^0.1.0"
 
 [tool.poetry.scripts]
-unifi-protect-backup = 'unifi_protect_backup.cli:main'
+unifi-protect-rclone = 'unifi_protect_rclone.cli:main'
 
 [tool.ruff]
 line-length = 120
