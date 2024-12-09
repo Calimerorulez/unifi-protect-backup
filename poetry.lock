@@ -1999,13 +1999,13 @@ devenv = ["check-manifest", "pytest (>=4.3)", "pytest-cov", "pytest-mock (>=3.3)
 
 [[package]]
 name = "uiprotect"
-version = "6.3.1"
+version = "6.7.0"
 description = "Python API for Unifi Protect (Unofficial)"
 optional = false
 python-versions = ">=3.10"
 files = [
-    {file = "uiprotect-6.3.1-py3-none-any.whl", hash = "sha256:ec35d97d339dac412d4092f151e70a3a2b4ffc757150f5d4ef2c9354491e1906"},
-    {file = "uiprotect-6.3.1.tar.gz", hash = "sha256:2227dae6b1951ce6de8e5de429ca46b84d964114a05a13c104a09d3e4e1323eb"},
+    {file = "uiprotect-6.7.0-py3-none-any.whl", hash = "sha256:f149627cb3439005990d2d441f1b1409407388dd2162a1595c5144ae55802241"},
+    {file = "uiprotect-6.7.0.tar.gz", hash = "sha256:b55eefec29b55d99df307b8b82c2250a2c7c47723ffee618bc37f24b76364eb5"},
 ]
 
 [package.dependencies]
