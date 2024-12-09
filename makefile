@@ -1,5 +1,5 @@
 sources = unifi_protect_backup
-container_name ?= ghcr.io/ep1cman/unifi-protect-backup
+container_name ?= ghcr.io/Calimerorulez/unifi-protect-backup
 container_arches ?= linux/amd64,linux/arm64
 
 .PHONY: test format lint unittest coverage pre-commit clean
