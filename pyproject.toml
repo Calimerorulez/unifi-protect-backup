@@ -1,10 +1,10 @@
 [tool]
 [tool.poetry]
 name = "unifi_protect_backup"
-version = "0.11.0"
-homepage = "https://github.com/ep1cman/unifi-protect-backup"
+version = "0.12.0"
+homepage = "https://github.com/Calimerorulez/unifi-protect-backup"
 description = "Python tool to backup unifi event clips in realtime."
-authors = ["sebastian.goscik <sebastian@goscik.com>"]
+authors = ["Pat <calimerorulez@gmail.com"]
 readme = "README.md"
 license =  "MIT"
 classifiers=[
@@ -30,7 +30,7 @@ apprise = "^1.5.0"
 expiring-dict = "^1.1.0"
 async-lru = "^2.0.4"
 aiolimiter = "^1.1.0"
-uiprotect = "^6.3.1"
+uiprotect = "^6.7.0"
 
 [tool.poetry.group.dev]
 optional = true
